@@ -3,7 +3,7 @@ const userModel = require('../models/userModel')
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 
 const placeOrder = async(req,res)=>{
-    const url = 'http://localhost:4000';
+    const url = 'https://foodprepavit.onrender.com';
 
     try {
         
